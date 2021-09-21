@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/atwkcf4956ad3927/branch/master?svg=true)](https://ci.appveyor.com/project/Sergius92739/webpack5-2021/branch/master)
