@@ -23,7 +23,7 @@ module.exports = merge(common, {
 
   module: {
     rules: [
-      // Styles: Inject CSS into the head with source maps
+      // Styles: Inject CSS into the head with source maps.
       {
         test: /\.(scss|css)$/,
         use: [
