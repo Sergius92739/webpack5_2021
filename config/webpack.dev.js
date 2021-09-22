@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const { merge } = require('webpack-merge');
 
 const common = require('./webpack.common.js');
-// const paths = require('./paths');
+const paths = require('./paths');
 
 module.exports = merge(common, {
   // Set the mode to development or production
@@ -14,7 +14,7 @@ module.exports = merge(common, {
   // Spin up a server for quick development
   devServer: {
     historyApiFallback: true,
-    // contentBase: paths.build,
+    static: paths.src,
     open: true,
     compress: true,
     hot: true,
